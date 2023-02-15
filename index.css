@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.my {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(20.avif);
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.mine {
+  color: rgb(24, 24, 16);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 35px;
+}
+.abc {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.abc li {
+  margin: 0 8px;
+}
+.btn {
+  border: 2px solid none;
+  padding: 3px;
+  font-size: 15px;
+  transition: transform 0.4s;
+}
+a:hover {
+  color: brown;
+}
+.btn:hover {
+  background-color: brown;
+  transform: scale(1.2);
+}
+.contact {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+h1 {
+  color: black;
+  margin: 20px 0px 20px;
+  font-size: 60px;
+}
+h3 {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+h4 {
+  color: coral;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.news form {
+  width: 280px;
+  max-width: 100%;
+  position: relative;
+}
+.news form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 10px 14px 15px;
+  border: 2px solid rgb(119, 97, 97);
+  outline: none;
+  border-radius: 15px;
+}
+.news form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: rgb(199, 169, 169);
+  top: 6px;
+  left: 190px;
+}
+.about {
+  width: 100%;
+  background-color: rgb(31, 28, 28);
+}
+.about img {
+  height: auto;
+  width: 400px;
+  left: 50px;
+}
+.text {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text h2 {
+  color: white;
+  font-size: 60px;
+  margin-left: 20px;
+}
+.text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.text p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 12px;
+  margin-bottom: 45px;
+}
+button {
+  background-color: grey;
+  border: 2px solid;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 28px;
+  translate: 0.4s;
+}
+button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.service {
+  background-color: black;
+  width: 100%;
+  padding: 100px 0px;
+}
+.our {
+  color: grey;
+  font-size: 50px;
+  width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.cards {
+  height: 300px;
+  width: 335px;
+  padding: 20px 35px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.cards i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: brown;
+}
+h5 {
+  color: black;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.pra p {
+  color: brown;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.cards .button {
+  background-color: rgb(131, 62, 196);
+  border: 2px solid none;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 28px;
+  translate: 0.4s;
+}
+.cards .button:hover {
+  background-color: rgb(231, 95, 163);
+  transform: scale(1.2);
+}
+.contact-me {
+  width: 100%;
+  height: 290px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-me p {
+  color: white;
+  font-size: 30px;
+}
